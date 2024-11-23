@@ -61,9 +61,17 @@ body {
 }					
 
 #signup input[required] {  /* 필수 입력 필드의 스타일 */
-	border:1px red solid;  
+	border:1px blueviolet solid;  
 }
 
 #signup input[readonly] {  /* 읽기 전용 필드의 스타일 */
 	border:none;
+}
+#signup fieldset:last-of-type {
+	border: none;
+	margin-bottom: 0;
+}
+#signup button:hover {
+	background-color: blueviolet;
+	color: #fff;
 }
